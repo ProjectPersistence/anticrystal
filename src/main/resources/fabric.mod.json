@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "anticrystal",
+  "version": "1.0.0",
+  "name": "Anti Crystal",
+  "description": "Prevents players from using end crystals in the Overworld and Nether.",
+  "authors": ["Lucas at Project Persistence"],
+  "contact": {"Main Source": "https://github.com/ProjectPersistence/anticrystal"},
+  "license": "MIT",
+  "environment": "server",
+  "depends": {
+    "fabric": "*",
+    "minecraft": "1.21.9"
+  },
+  "entrypoints": {
+    "server": [
+      "org.projectpersistence.anticrystal.Anticrystal"
+    ]
+  }
+}
